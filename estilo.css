@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Color de fondo */
+  }
+  
+  #calculator {
+    text-align: center;
+    background-color: #fff; /* Color de fondo del contenedor de la calculadora */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  input {
+    width: 80px;
+    height: 60px;
+    font-size: 18px;
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+  }
+  
+  button:active {
+    background-color: #367835; /* Cambio de color al hacer clic */
+  }
+  
